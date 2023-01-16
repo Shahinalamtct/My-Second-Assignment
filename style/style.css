@@ -1,0 +1,538 @@
+
+ *{
+    margin:0;
+    padding: 0;
+}
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+ 
+ html{
+     scroll-behavior: smooth;
+ }
+ /*=============
+  Common styles 
+  ============================*/
+ 
+ p small{
+     color: #727272;
+     font-size: 16px;
+ }
+ h5{
+     color: #131313;
+     font-size: 20px;
+     font-weight: 600;
+     margin: 0;
+     align-items: center;
+ }
+ h2 {
+     font-weight: 900;
+     font-size: 34px;
+     color: #131313;
+ }
+ /*=============
+  header area section styles 
+  ============================*/
+ 
+ 
+ .big-content header {
+    width:80%;
+    margin:25px auto
+ }
+
+ .big-content {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 1px;
+}
+ 
+ .big-content nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 60px;
+ }
+ 
+ nav ul {
+     display: flex;
+     align-items: center;
+ }
+ 
+ nav li {
+     list-style: none;
+     margin-left: 50px;
+     color: #424242;
+     font-size: 18px;
+ }
+ 
+ /*=============
+  banner area section styles 
+  ============================*/
+ .banner {
+     text-align: center;
+ }
+ 
+ 
+ .button {
+     
+     height: 45px;
+     width: 120px;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+     background-color: orange;
+     margin: 20px 0;
+     border: 0;
+ }
+ .big-content .image{
+     width:100%;
+ }
+ 
+ .big-content .image img{
+     width:100%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .main-section{
+  width:80%;
+  margin:25px auto
+ }
+ 
+ 
+ /*features section styles*/
+ 
+ .team-container{
+     display: flex;
+     width:100%;
+     justify-content: space-between;
+     flex: 1;
+     margin-bottom: 100px;
+     position: relative;
+ }
+ 
+ .team-members{
+     display: flex;
+     flex-direction: column;
+     width:48%;
+     position: relative;
+ }
+ .team-members .row{
+     display:flex;
+     width:100%;
+     margin-bottom: 10px;
+     justify-content: space-between;
+    
+ 
+ }
+ .team-members .row div{
+     width:48%;
+     margin-left: 8px;
+ }
+ .team-members .row img{
+     width:100%
+ }
+ .team-features {
+     display:flex;
+     align-items:center;
+     width:48%;
+ }
+ 
+ 
+ /*features css */
+ .features{
+     display: flex;
+     justify-content: space-between;
+     width:100%;
+     position: relative;
+ }
+ .second-features{
+     width:44%;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+ }
+ .features-card{
+     width:100%
+ }
+ .card {
+     width:100%;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 110px;
+     background: #FFFFFF;
+     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+     border-radius: 15px;
+     margin-bottom: 16px;
+     padding: 12px;
+ }
+ .features .image{
+     width:48%;
+     height: 100%;
+     position:relative
+ }
+ .features .image img{
+     width:100%;
+     height: auto;
+ 
+ }
+ .experince-btn{
+     position:absolute;
+     bottom:-60px;
+     left:49%;
+     text-align: center;
+ }
+ .big-button{
+     margin: 20px 0;
+     height: 120px;
+     width: 220px;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+     background-color: orange;
+     border: 0;
+     align-items: center;
+ }
+ 
+ .big-btn h3{
+     font-size: 30px;
+     text-align: center;
+ 
+ }
+ .big-btn h3 span small{
+     font-size: 16px;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ 
+ /*================facts-area=====*/
+ 
+ 
+ .facts-area{
+     margin-top: 120px;
+ }
+ .section-title{
+     margin:0;
+     padding:0
+ }
+ .awards-block{
+     margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .awards{
+     width:180px;
+     height: 180px;
+     box-sizing: border-box;
+     border: 1px solid #FF900E;
+     border-radius: 8px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding:25px;
+     transition: 0.3s;
+     
+ }
+ .awards:hover{
+     transition: 0.3s;
+     box-shadow: 4px 4px 12px rgba(0,0,0,0.19), 
+                 0 0px 6px rgba(0,0,0,0.23);
+ }
+ .awards img{
+     width:50px;
+     height:50px;
+     margin-top: 0;
+ }
+ .awards h2{
+     margin:0;
+     padding:5px;
+     font-size:32px
+ }
+ .awards p{
+     margin:0;
+     padding:0;
+     font-size:18px
+ }
+ 
+ 
+ 
+ 
+ 
+ /*contact-area*/
+ 
+ 
+ .contact{
+     margin: 70px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+ }
+ 
+ .contact-title{
+     width:500px;
+     margin-bottom: 20px;
+     align-items: center;
+ }
+ .contact-title h3{
+     text-align: center;
+     margin: 16px  0;
+     padding: 0;
+     font-size: 36px;
+     font-weight: 300;
+ }
+ .contact-title p{
+   text-align: center;
+     margin: 4px;
+     padding: 0;
+     font-size: 16px;
+     color:#727272
+ }
+ .contact-form{
+     width:100%;
+     display:flex;
+     justify-content: space-between;
+ }
+ .form-group{
+     width:45%
+ }
+ .input-group{
+     width:100%;
+     display:flex;
+     flex-direction:column;
+     margin-bottom: 40px;
+ }
+ .contact label{
+     font-size:17px;
+     color:#727272;
+ }
+ .contact .contact-form strong{
+     font-size:12px;
+     color:#fa0e0e
+ }
+ .contact input{
+     font-size: 14px;
+     padding:4px 8px;
+     color:#727272;
+     width:100%;
+     outline:none;
+     border:none
+ 
+ }
+ 
+ .contact span{
+     width:100%;
+     height: 1px;
+     background-color:#727272;;
+ }
+ 
+ 
+ 
+ 
+ 
+ /*sponspor-area*/
+ 
+ 
+ 
+ 
+ .sponspor-area{
+     overflow: hidden;
+ 
+     margin: 70px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .sponspor-title{
+     width:500px;
+     margin-bottom: 20px;
+ }
+ .sponspor-title h3{
+   text-align: center;
+     margin: 16px  0;
+     padding: 0;
+     font-size: 36px;
+ }
+ .sponspor-title p{
+   text-align: center;
+     margin: 4px;
+     padding: 0;
+     font-size: 16px;
+     color:#727272
+ }
+ .sponspor-list{
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-between;
+     width:100%
+ }
+ .sponspor-item{
+     width:10%
+ }
+ .sponspor-item img{
+     width:100%;
+     filter: grayscale(100%);
+     color:#727272
+ 
+ }
+ 
+ 
+ 
+ footer{
+     width:80%;
+     height:60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:10px auto;
+     margin-top: 25px;
+     background: #FFF4E7;
+     border-radius: 8px;
+     padding:5px 16px;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ 
+ }
+ footer p{
+     font-size:16px;
+     color:#727272;
+     text-align: center;
+ }
+ 
+ /*responsive*/
+@media only screen and (max-width: 992px) {
+    
+    .awards{
+        width:180px;
+        height: 180px;
+}
+
+}
+@media only screen and (max-width: 768px) {
+    .big-content{
+        flex-direction: column-reverse;
+    }
+    .team-members{
+        width:100%;
+    }
+   
+    .team-members .row div{
+        width:48.5%;
+        margin-left: 8px;
+    }
+    .team-features{
+        width:100%
+    }
+    .features{
+        flex-direction: column;
+    }
+    .second-features{
+        width:100%;
+    }
+    .features .image{
+        width:100%;
+    }
+    .experince-btn{
+        left:35%;
+       bottom:-100px
+    }
+    .big-button{
+        margin: 20px 0;
+        height: 100px;
+        width: 180px;
+        padding-top: 0;
+
+    }
+    .big-button h3{
+        font-size:26px;
+    }
+    .awards-block{
+        display: flex;
+        flex:50%;
+        justify-content: space-between;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .awards{
+        width:220px;
+        height: 220px;  
+    }
+    .contact-form{
+        flex-direction: column;
+    }
+    .form-group{
+        width:100%
+    }
+
+    .big-content nav ul{
+        flex-direction: column;
+    }
+    .big-content nav ul li{
+        margin: 3px
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    
+ 
+    .team-members .row{
+        flex-direction: column;
+    }
+    .team-members .row div{
+        width:100%;
+    }
+    .features-content{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .features-content br{
+        display:none
+    }
+    .features-content span:last-child{
+        margin-left: 5px;
+    }
+    .awards-block{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .awards{
+       width:400px;
+       height:400px
+    }
+    .awards img{
+        width:80px;
+        height:80px;
+        margin-top: 0;
+    }
+    .awards h2{
+        margin:0;
+        padding:8px;
+        font-size:36px
+    }
+    .awards p{
+        margin:0;
+        padding:5px;
+        font-size:22px
+    }
+}
+@media only screen and (max-width: 400px) {
+    .contact-title{
+        width:100%;
+    }
+    .awards{
+        width:100%;
+        height:300px
+     }
+     .logo-name{
+
+         font-size: 28px;
+     }
+}
